@@ -1,13 +1,18 @@
 console.log ("Hello world :D");
 
 function setup() {
-    createCanvas(400,400)
+    createCanvas(windowWidth,windowHeight)
+    strokeWeight(10)
+}
+
+function mouseDragged() {
+    let lineHue = mouseX - mouseY
+    stroke(177, 252,0)
+    line(pmouseX, pmouseY, mouseX, mouseY)
 }
 
 function draw() {
-    background(200)
-    rectMode (CENTER)
-    rect(mouseX, mouseY,50,50)
+    
 }
 
 function windowResize() {

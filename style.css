@@ -1,6 +1,8 @@
 body {
 
-    background: #252525;
+    font-family: 'Trebuchet MS';
+    background-image: linear-gradient(#101622,#B1FC00);
+    background-color: #101622;
 
 }
 
@@ -14,6 +16,7 @@ h1 {
 
     text-align: center;
     font-size: 60px;
+    color: #B1FC00;
 
 }
 
@@ -21,11 +24,36 @@ p {
 
     font-size: 30px;
     color: white;
+    text-shadow: 1px,1px,4px rgba(16,22,34,0.5);
 
 }
 
 canvas {
 
+    position: fixed;
     z-index: -1;
+    top: 0px;
+    left: 0px;
 
+}
+
+a:link {
+
+    color: #B1FC00;
+
+}
+
+a:visited {
+
+    color: #101622;
+
+}
+
+a:hover {
+    color: white;
+  }
+
+img {
+    position: relative;
+    left: 36.5%;
 }
