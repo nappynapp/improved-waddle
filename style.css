@@ -19,16 +19,13 @@ h1 {
 
 p {
 
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 
 }
 
 canvas {
 
-    position: fixed;
-    left: 0;
-    top: 0;
     z-index: -1;
 
 }
