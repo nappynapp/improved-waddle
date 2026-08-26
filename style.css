@@ -10,10 +10,25 @@ img {
 
 }
 
+h1 {
+
+    text-align: center;
+    font-size: 60px;
+
+}
+
 p {
 
-    font-size: 60px;
+    font-size: 40px;
     color: white;
-    border: 10px dotted black
+
+}
+
+canvas {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
 
 }
