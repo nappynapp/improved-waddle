@@ -1,0 +1,19 @@
+body {
+
+    background: #252525;
+
+}
+
+img {
+
+    width: 400px;
+
+}
+
+p {
+
+    font-size: 60px;
+    color: white;
+    border: 10px dotted black
+
+}
