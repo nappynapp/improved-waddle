@@ -53,6 +53,23 @@ a:hover {
     color: white;
   }
 
+  a.scam:link {
+
+    font-size: 30px;
+    color: #fc0000;
+
+}
+
+a.scam:visited {
+
+    color: #ff0000;
+
+}
+
+a.scam:hover {
+    color: rgb(255, 0, 0);
+  }
+
 img {
     position: relative;
     left: 36.5%;
