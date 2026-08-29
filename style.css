@@ -1,76 +1,107 @@
 body {
-
     font-family: 'Trebuchet MS';
-    background-image: linear-gradient(#101622,#B1FC00);
     background-color: #101622;
-
+    padding: 30px;
 }
 
 img {
-
     width: 400px;
-
 }
 
 h1 {
-
     text-align: center;
     font-size: 60px;
-    color: #B1FC00;
-
+    color: #101622;
 }
 
 p {
-
     font-size: 30px;
-    color: white;
+    color: #B1FC00;
     text-shadow: 1px,1px,4px rgba(16,22,34,0.5);
-
+    text-align: center;
 }
 
 canvas {
-
-    position: fixed;
+    position: absolute;
     z-index: -1;
     top: 0px;
     left: 0px;
-
 }
 
 a:link {
-
     color: #B1FC00;
-
 }
 
 a:visited {
-
     color: #101622;
-
 }
 
 a:hover {
     color: white;
-  }
+}
 
-  a.scam:link {
-
+a.scam:link {
     font-size: 30px;
     color: #fc0000;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a.scam:visited {
-
     color: #ff0000;
-
 }
 
 a.scam:hover {
     color: rgb(255, 0, 0);
-  }
+}
 
-img {
-    position: relative;
-    left: 36.5%;
+.button1 {
+    border-radius: 10px;
+    background-color: #B1FC00;
+    color: #101622;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 400px;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.08); /* IE 9 */
+    -webkit-transform: scale(1.08); /* Safari 3-8 */
+    transform: scale(1.08); 
+}
+
+.headCont{
+    border-radius: 100px;
+    background-color: #B1FC00;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    height: 300px;
+    margin: 10px;
+    width: auto;
 }
