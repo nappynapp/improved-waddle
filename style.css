@@ -107,3 +107,11 @@ a.scam:hover {
     margin: 10px;
     width: auto;
 }
+
+hr.divider{
+    margin-top: 20px;
+    border-top: 5px solid #B1FC00;
+    border-radius: 5px;
+    border-bottom: none;
+    width: 90%;
+}
