@@ -1,7 +1,7 @@
 console.log ("Hello world :D");
 
 function setup() {
-    createCanvas(windowWidth,8192)
+    createCanvas(windowWidth,1100)
     strokeWeight(10)
 }
 
