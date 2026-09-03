@@ -69,6 +69,28 @@ a.scam:hover {
     margin-right: 20px;
 }
 
+.button2 {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: none;
+    background-color: #B1FC00;
+    color: #101622;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+div.sticky{
+    width: 150px;
+    position: sticky;
+    top: 100px;
+}
+
 .zoom {
     transition: transform .2s; /* Animation */
     width: 400px;
