@@ -83,6 +83,7 @@ a.scam:hover {
     font-family: Trebuchet MS;
     margin-bottom: 15px;
     width: 150px;
+    left: 0px;
 }
 
 div.sticky{
@@ -136,5 +137,5 @@ hr.divider{
     border-top: 5px solid #B1FC00;
     border-radius: 5px;
     border-bottom: none;
-    width: 90%;
+    width: 77%;
 }
